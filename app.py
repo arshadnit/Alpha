@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 
-csv_url = "https://onedrive.live.com/embed?resid=4D7176880AA5DA92%218139&authkey=!AAlaiAwyhINffO0"
+csv_url = "https://drive.google.com/uc?id=1d12LjvL6W7FT1QJi3PpcKsT2oHZbLYz8&export=download"
 
 df=pd.read_csv(csv_url)
 
