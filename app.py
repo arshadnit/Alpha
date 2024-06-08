@@ -5,12 +5,10 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 
-#csv_url = "https://drive.google.com/uc?id=1d12LjvL6W7FT1QJi3PpcKsT2oHZbLYz8&export=download"
 
-#df=pd.read_csv(csv_url)
+df=pd.read_csv('Alpha2.csv')
 
-# Update the URL to the direct download link of the hosted CSV file
-csv_url = "https://drive.google.com/uc?id=1d12LjvL6W7FT1QJi3PpcKsT2oHZbLYz8&export=download"
+
 
 # Read the CSV file from the URL
 try:
