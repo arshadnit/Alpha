@@ -5,8 +5,9 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 
+csv_url = "https://drive.google.com/uc?id=1d12LjvL6W7FT1QJi3PpcKsT2oHZbLYz8&export=download"
 
-df=pd.read_csv('/Users/arshadahmed/Desktop/Alpha2.csv')
+df=pd.read_csv(csv_url)
 
 st.set_page_config(layout='wide',initial_sidebar_state='expanded')
 
