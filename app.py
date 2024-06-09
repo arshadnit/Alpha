@@ -6,7 +6,7 @@ import plotly.express as px
 
 
 
-df=pd.read_csv('Alpha2.csv')
+df=pd.read_csv('Desktop/Alpha2.csv')
 
 
 
