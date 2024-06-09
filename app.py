@@ -8,26 +8,6 @@ import plotly.express as px
 
 df=pd.read_csv('Desktop/Alpha2.csv')
 
-
-
-# Read the CSV file from the URL
-try:
-    df = pd.read_csv(csv_url)
-    st.write("CSV file loaded successfully.")
-    st.write(df.head())
-    st.write("Columns in the DataFrame:", df.columns)
-except Exception as e:
-    st.write("Error loading CSV file:", e)
-
-# Ensure 'region' column exists before using it
-if 'region' in df.columns:
-    region = st.sidebar.multiselect("Choose Region", df['region'].unique())
-else:
-    st.write("The 'region' column does not exist in the DataFrame.")
-
-
-
-
 st.set_page_config(layout='wide',initial_sidebar_state='expanded')
 
 st.title(' :shirt: :dress: :shoe: Alpha')
